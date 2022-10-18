@@ -1,4 +1,6 @@
 # 🎇 View Navigator
+[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 View Navigator is a tool that allows you to inspect and validate all the views of a screen individually, highlighting the margins and paddings of each component, in addition, it is possible to navigate in the hierarchy of views and analyze all the elements that make up your screen.
 
