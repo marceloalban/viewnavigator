@@ -31,6 +31,21 @@ View Navigator shows all components of a base root layout visually, all elements
 
 We can use the Navigator view in two ways:
 
+### For the entire application
+
+In this case, the View Navigator will appear for all activities and fragments automatically, to do this, you must register the View Navigator in the ```Application``` class through the ```ViewNavigatorRegister``` class:
+
+```kotlin
+class MyApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+
+        ViewNavigatorRegister().register(this)
+    }
+}
+```
+Registering in the ```Application```, the View Navigator will be always visible in the screen and will refresh the views when you navigate to another Activity or Fragment.
+
 ### For a single Activity or Fragment
 
 In this case, the view navigator must be called manually, we can do this through the ```ViewNavigatorWindow``` class:
