@@ -26,3 +26,40 @@ Add the dependency:
 ```groovy
 implementation 'com.github.MarceloAlban:ViewNavigator:{last_version}'
 ```
+## How it works?
+View Navigator shows all components of a base root layout visually, all elements are clickable and when clicked they are highlighted with margins and paddings.
+
+We can use the Navigator view in two ways:
+
+### For a single Activity or Fragment
+
+In this case, the view navigator must be called manually, we can do this through the ```ViewNavigatorWindow``` class:
+
+```kotlin
+ViewNavigatorWindow(rootView).show()
+```
+
+#### Example
+I want to inspect a specific layout in my xml
+
+**XML**
+```xml
+...
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/rootLayout">
+
+    <com.google.android.material.textview.MaterialTextView/>
+  
+    <com.google.android.material.textview.MaterialTextView/>
+  
+</androidx.appcompat.widget.LinearLayoutCompat>
+...
+```
+
+**CODE**
+```kotlin
+// With ViewBinding
+ViewNavigatorWindow(binding.rootLayout).show()
+// Without ViewBinding
+ViewNavigatorWindow(findViewById(R.id.rootLayout)).show()
+```
