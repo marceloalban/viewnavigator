@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDimensions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/view_navigator_space_small"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_navigator_space_small"
+        android:drawableTop="@drawable/view_navigator_legend_square"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/view_navigator_legend_margins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/view_navigator_text_color"
+        app:drawableTint="@color/view_navigator_margin_color" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_navigator_space_small"
+        android:drawableTop="@drawable/view_navigator_legend_square"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/view_navigator_legend_paddings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/view_navigator_text_color"
+        app:drawableTint="@color/view_navigator_padding_color" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_navigator_space_small"
+        android:drawableTop="@drawable/view_navigator_legend_square"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/view_navigator_legend_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/view_navigator_text_color"
+        app:drawableTint="@color/view_navigator_content_color" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/view_navigator_window_width"
+    android:layout_height="@dimen/view_navigator_window_feature_metrics_height"
+    android:maxWidth="@dimen/view_navigator_window_width"
+    android:maxHeight="@dimen/view_navigator_window_feature_metrics_height">
+
+    <View
+        android:id="@+id/viewMargim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/view_navigator_margin_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewPadding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/view_navigator_feature_metrics_padding_margin"
+        android:background="@color/view_navigator_padding_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/view_navigator_feature_metrics_content_margin"
+        android:background="@color/view_navigator_content_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtSize"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewContent"
+        app:layout_constraintEnd_toEndOf="@+id/viewContent"
+        app:layout_constraintStart_toStartOf="@+id/viewContent"
+        app:layout_constraintTop_toTopOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPaddingLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewContent"
+        app:layout_constraintEnd_toStartOf="@+id/viewContent"
+        app:layout_constraintStart_toStartOf="@+id/viewPadding"
+        app:layout_constraintTop_toTopOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPaddingRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewContent"
+        app:layout_constraintEnd_toEndOf="@+id/viewPadding"
+        app:layout_constraintStart_toEndOf="@+id/viewContent"
+        app:layout_constraintTop_toTopOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPaddingTop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/viewContent"
+        app:layout_constraintEnd_toEndOf="@+id/viewPadding"
+        app:layout_constraintStart_toStartOf="@+id/viewPadding"
+        app:layout_constraintTop_toTopOf="@+id/viewPadding" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPaddingBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewPadding"
+        app:layout_constraintEnd_toEndOf="@+id/viewPadding"
+        app:layout_constraintStart_toStartOf="@+id/viewPadding"
+        app:layout_constraintTop_toBottomOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMarginLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewContent"
+        app:layout_constraintEnd_toStartOf="@+id/viewPadding"
+        app:layout_constraintStart_toStartOf="@+id/viewMargim"
+        app:layout_constraintTop_toTopOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMarginTop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/viewPadding"
+        app:layout_constraintEnd_toEndOf="@+id/viewMargim"
+        app:layout_constraintStart_toStartOf="@+id/viewMargim"
+        app:layout_constraintTop_toTopOf="@+id/viewMargim" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMarginRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewContent"
+        app:layout_constraintEnd_toEndOf="@+id/viewMargim"
+        app:layout_constraintStart_toEndOf="@+id/viewPadding"
+        app:layout_constraintTop_toTopOf="@+id/viewContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMarginBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_navigator_space_small"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMargim"
+        app:layout_constraintEnd_toEndOf="@+id/viewMargim"
+        app:layout_constraintStart_toStartOf="@+id/viewMargim"
+        app:layout_constraintTop_toBottomOf="@+id/viewPadding" />
+</androidx.constraintlayout.widget.ConstraintLayout>

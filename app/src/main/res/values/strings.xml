@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">View Navigator</string>
+    <string name="app_button_navigator">Show Navigator</string>
+    <string name="app_button_activity_example">START ACTIVITY EXAMPLE</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_navigator_space_small">4dp</dimen>
+    <dimen name="view_navigator_legend_square_size">10dp</dimen>
+    <dimen name="view_navigator_window_width">250dp</dimen>
+    <dimen name="view_navigator_window_max_height">250dp</dimen>
+    <dimen name="view_navigator_window_feature_metrics_height">200dp</dimen>
+    <dimen name="view_navigator_feature_metrics_padding_margin">40dp</dimen>
+    <dimen name="view_navigator_feature_metrics_content_margin">80dp</dimen>
+</resources>

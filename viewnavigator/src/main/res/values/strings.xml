@@ -1,0 +1,9 @@
+<resources>
+    <string name="view_navigator_legend_margins">Margins</string>
+    <string name="view_navigator_legend_paddings">Paddings</string>
+    <string name="view_navigator_legend_content">Content</string>
+
+    <string name="view_navigator_permission_title">Warning</string>
+    <string name="view_navigator_permission_message">To use the View Navigator, we need the permission to draw over other apps!</string>
+    <string name="view_navigator_permission_button">Go to Settings</string>
+</resources>

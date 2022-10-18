@@ -1,0 +1,32 @@
+// For kotlin and gradle version, check gradle.properties
+
+ext.buildConfig = [
+        'compileSdk': 33,
+        'minSdk'    : 21,
+        'targetSdk' : 33
+]
+
+ext.appVersion = [
+        'appVersionCode': 1,
+        'appVersionName': "1.0.0"
+]
+
+ext.publication = [
+        version   : '0.0.4',
+        groupId   : 'com.alban',
+        artifactId: 'viewnavigator'
+]
+
+ext.versions = [
+        androidAppCompatVersion       : '1.5.1',
+        androidConstraintLayoutVersion: '2.1.4',
+        androidKtxVersion             : '1.9.0',
+        androidMaterialVersion        : '1.6.1'
+]
+
+ext.deps = [
+        'androidAppCompat'       : "androidx.appcompat:appcompat:${versions.androidAppCompatVersion}",
+        'androidConstraintlayout': "androidx.constraintlayout:constraintlayout:${versions.androidConstraintLayoutVersion}",
+        'androidKtxCore'         : "androidx.core:core-ktx:${versions.androidKtxVersion}",
+        'androidMaterial'        : "com.google.android.material:material:${versions.androidMaterialVersion}"
+]

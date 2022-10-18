@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/view_navigator_items_ripple"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/iconBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_navigator_icons_ripple"
+        android:padding="@dimen/view_navigator_space_small"
+        android:src="@drawable/ic_back"
+        android:tint="@color/view_navigator_icons_color" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:padding="@dimen/view_navigator_space_small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/view_navigator_text_color"
+        app:autoSizeTextType="uniform"
+        tools:text="LinearLayout" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iconInvisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/view_navigator_space_small"
+        android:src="@drawable/ic_invisible"
+        android:tint="@color/view_navigator_icons_color" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/iconNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_navigator_icons_ripple"
+        android:padding="@dimen/view_navigator_space_small"
+        android:src="@drawable/ic_next"
+        android:tint="@color/view_navigator_icons_color" />
+</androidx.appcompat.widget.LinearLayoutCompat>
