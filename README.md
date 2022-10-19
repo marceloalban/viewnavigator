@@ -29,7 +29,7 @@ implementation 'com.github.MarceloAlban:ViewNavigator:{last_version}'
 ## How it works?
 View Navigator shows all components of a base root layout visually, all elements are clickable and when clicked they are highlighted with margins and paddings.
 
-We can use the Navigator view in two ways:
+We can use the View Navigator in two ways:
 
 ### For the entire application
 
