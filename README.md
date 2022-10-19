@@ -30,6 +30,14 @@ This icon expand/collapse the items<br>
 This icon close the window<br>
 <img src="https://user-images.githubusercontent.com/75705626/196685700-18d9424d-1a45-47db-ba29-f7b76b63f9c4.png"  width="35%" />
 
+### Items section
+This section is a list with all the child views<br>
+<img src="https://user-images.githubusercontent.com/75705626/196687042-ff96dc49-1773-4997-a5b1-b04de7d566f3.png" width="35%" />
+<br>
+  - <img src="https://user-images.githubusercontent.com/75705626/196688376-014bac12-d7df-4d4c-af21-5f1a9795c8f5.png" width="20px" /> Prev button: This button indicates that we want to analyze the views of the parent, we will go back one level in the hierarchy;
+  - <img src="https://user-images.githubusercontent.com/75705626/196689016-d46ef00e-6ac7-4818-867c-523e85f11366.png" width="20px" /> Next button: This button indicates that we want to analyze the views of this ```ViewGroup```, we are going to advance one level in the hierarchy;
+  - <img src="https://user-images.githubusercontent.com/75705626/196689170-031770c4-dded-4bd5-abcf-6de84b08ce4f.png" width="20px" /> Invisible icon: This icon indicates that the view is currently invisible.
+
 ## Setup
 [![](https://jitpack.io/v/MarceloAlban/ViewNavigator.svg)](https://jitpack.io/#MarceloAlban/ViewNavigator)
 
