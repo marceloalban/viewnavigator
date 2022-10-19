@@ -12,13 +12,13 @@ ext.appVersion = [
 ]
 
 ext.publication = [
-        version   : '1.0.3',
+        version   : '1.0.4',
         groupId   : 'com.alban',
         artifactId: 'viewnavigator'
 ]
 
 ext.versions = [
-        androidKtxVersion     : '1.9.0',
+        androidKtxVersion     : '1.7.0',
         androidMaterialVersion: '1.6.1'
 ]
 
