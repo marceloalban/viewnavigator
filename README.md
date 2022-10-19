@@ -10,6 +10,26 @@ View Navigator is a tool that allows you to inspect and validate all the views o
   <img src="https://user-images.githubusercontent.com/75705626/196262149-14687804-9402-4425-b8bc-3aa223ab19ce.gif" width="35%">
 </p>
 
+## Features
+View Navigator Window<br>
+<img src="https://user-images.githubusercontent.com/75705626/196679085-a6209d07-bb1f-4df4-993a-ee949441c8fe.png" alt="sample" title="sample" width="35%" />
+
+### Info button
+This icon shows the information about margins and paddings<br>
+<img src="https://user-images.githubusercontent.com/75705626/196683879-a5775de1-3dc6-4d83-9e2c-0a7bf6293c1e.png"  width="35%" />
+
+### Metrics button
+This icon shows the information about margins and paddings with their values<br>
+<img src="https://user-images.githubusercontent.com/75705626/196684700-5d19ec46-99df-43f9-8c5a-663fbed4789b.png"  width="35%" />
+
+### Expand/Collapse button
+This icon expand/collapse the items<br>
+<img src="https://user-images.githubusercontent.com/75705626/196685408-c944ddbd-e9aa-42f5-9a5f-e824988beac6.png"  width="35%" />
+
+### Close button
+This icon close the window<br>
+<img src="https://user-images.githubusercontent.com/75705626/196685700-18d9424d-1a45-47db-ba29-f7b76b63f9c4.png"  width="35%" />
+
 ## Setup
 [![](https://jitpack.io/v/MarceloAlban/ViewNavigator.svg)](https://jitpack.io/#MarceloAlban/ViewNavigator)
 
