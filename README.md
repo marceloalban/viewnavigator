@@ -38,6 +38,9 @@ This section is a list with all the child views<br>
   - <img src="https://user-images.githubusercontent.com/75705626/196689016-d46ef00e-6ac7-4818-867c-523e85f11366.png" width="20px" /> Next button: This button indicates that we want to analyze the views of this ```ViewGroup```, we are going to advance one level in the hierarchy;
   - <img src="https://user-images.githubusercontent.com/75705626/196689170-031770c4-dded-4bd5-abcf-6de84b08ce4f.png" width="20px" /> Invisible icon: This icon indicates that the view is currently invisible.
 
+OBS: All this views are clickable, once clicked, the view will be highlighted:<br>
+<img src="https://user-images.githubusercontent.com/75705626/196689680-8a37c3c9-d1d7-41b3-9c6e-5fafa54ef912.png" />
+
 ## Setup
 [![](https://jitpack.io/v/MarceloAlban/ViewNavigator.svg)](https://jitpack.io/#MarceloAlban/ViewNavigator)
 
