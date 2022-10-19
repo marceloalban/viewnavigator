@@ -10,7 +10,7 @@ View Navigator is a tool that allows you to inspect and validate all the views o
   <img src="https://user-images.githubusercontent.com/75705626/196262149-14687804-9402-4425-b8bc-3aa223ab19ce.gif" width="35%">
 </p>
 
-## Features
+## Features :bulb:
 View Navigator Window<br>
 <img src="https://user-images.githubusercontent.com/75705626/196679085-a6209d07-bb1f-4df4-993a-ee949441c8fe.png" alt="sample" title="sample" width="35%" />
 
@@ -41,7 +41,7 @@ This section is a list with all the child views<br>
 OBS: All this views are clickable, once clicked, the view will be highlighted:<br>
 <img src="https://user-images.githubusercontent.com/75705626/196689680-8a37c3c9-d1d7-41b3-9c6e-5fafa54ef912.png" />
 
-## Setup
+## Setup :wrench:
 [![](https://jitpack.io/v/MarceloAlban/ViewNavigator.svg)](https://jitpack.io/#MarceloAlban/ViewNavigator)
 
 To use the View Navigator, add the Jitpack repository to your root ```build.gradle```:
@@ -57,7 +57,7 @@ Add the dependency:
 ```groovy
 implementation 'com.github.MarceloAlban:ViewNavigator:{last_version}'
 ```
-## How it works?
+## How it works? :confused:
 View Navigator shows all components of a base root layout visually, all elements are clickable and when clicked they are highlighted with margins and paddings.
 
 We can use the View Navigator in two ways:
@@ -109,3 +109,6 @@ ViewNavigatorWindow(binding.rootLayout).show()
 // Without ViewBinding
 ViewNavigatorWindow(findViewById(R.id.rootLayout)).show()
 ```
+
+## Thanks :wink:
+Thanks for using, I hope it helps your project!
