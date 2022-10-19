@@ -18,11 +18,11 @@ ext.publication = [
 ]
 
 ext.versions = [
-        androidAppCompatVersion       : '1.5.1',
-        androidMaterialVersion        : '1.6.1'
+        androidAppCompatVersion: '1.5.1',
+        androidMaterialVersion : '1.6.1'
 ]
 
 ext.deps = [
-        'androidAppCompat'       : "androidx.appcompat:appcompat:${versions.androidAppCompatVersion}",
-        'androidMaterial'        : "com.google.android.material:material:${versions.androidMaterialVersion}"
+        'androidAppCompat': "androidx.appcompat:appcompat:${versions.androidAppCompatVersion}",
+        'androidMaterial' : "com.google.android.material:material:${versions.androidMaterialVersion}"
 ]
