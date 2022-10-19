@@ -40,7 +40,6 @@ android {
 
 dependencies {
     implementation deps.androidAppCompat
-    implementation deps.androidKtxCore
     implementation deps.androidMaterial
 }
 
