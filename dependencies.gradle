@@ -12,21 +12,17 @@ ext.appVersion = [
 ]
 
 ext.publication = [
-        version   : '1.0.0',
+        version   : '1.0.1',
         groupId   : 'com.alban',
         artifactId: 'viewnavigator'
 ]
 
 ext.versions = [
         androidAppCompatVersion       : '1.5.1',
-        androidConstraintLayoutVersion: '2.1.4',
-        androidKtxVersion             : '1.9.0',
         androidMaterialVersion        : '1.6.1'
 ]
 
 ext.deps = [
         'androidAppCompat'       : "androidx.appcompat:appcompat:${versions.androidAppCompatVersion}",
-        'androidConstraintlayout': "androidx.constraintlayout:constraintlayout:${versions.androidConstraintLayoutVersion}",
-        'androidKtxCore'         : "androidx.core:core-ktx:${versions.androidKtxVersion}",
         'androidMaterial'        : "com.google.android.material:material:${versions.androidMaterialVersion}"
 ]

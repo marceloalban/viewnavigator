@@ -44,7 +44,5 @@ android {
 dependencies {
     implementation project(':viewnavigator')
     implementation deps.androidAppCompat
-    implementation deps.androidConstraintlayout
-    implementation deps.androidKtxCore
     implementation deps.androidMaterial
 }
