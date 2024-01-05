@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/view_navigator_icons_ripple"
             android:padding="@dimen/view_navigator_space_small"
-            android:src="@drawable/ic_info"
+            android:src="@drawable/view_navigator_ic_info"
             android:tint="@color/view_navigator_icons_color"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/view_navigator_icons_ripple"
             android:padding="@dimen/view_navigator_space_small"
-            android:src="@drawable/ic_metrics"
+            android:src="@drawable/view_navigator_ic_metrics"
             android:tint="@color/view_navigator_icons_color"
             app:layout_constraintStart_toEndOf="@+id/iconInformation"
             app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/view_navigator_icons_ripple"
             android:padding="@dimen/view_navigator_space_small"
-            android:src="@drawable/ic_up"
+            android:src="@drawable/view_navigator_ic_up"
             android:tint="@color/view_navigator_icons_color"
             app:layout_constraintStart_toEndOf="@+id/iconMetrics"
             app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/view_navigator_icons_ripple"
             android:padding="@dimen/view_navigator_space_small"
-            android:src="@drawable/ic_close"
+            android:src="@drawable/view_navigator_ic_close"
             android:tint="@color/view_navigator_icons_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

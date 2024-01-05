@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/view_navigator_icons_ripple"
         android:padding="@dimen/view_navigator_space_small"
-        android:src="@drawable/ic_back"
+        android:src="@drawable/view_navigator_ic_back"
         android:tint="@color/view_navigator_icons_color" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/view_navigator_space_small"
-        android:src="@drawable/ic_invisible"
+        android:src="@drawable/view_navigator_ic_invisible"
         android:tint="@color/view_navigator_icons_color" />
 
     <androidx.appcompat.widget.AppCompatImageButton
@@ -43,6 +43,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/view_navigator_icons_ripple"
         android:padding="@dimen/view_navigator_space_small"
-        android:src="@drawable/ic_next"
+        android:src="@drawable/view_navigator_ic_next"
         android:tint="@color/view_navigator_icons_color" />
 </androidx.appcompat.widget.LinearLayoutCompat>

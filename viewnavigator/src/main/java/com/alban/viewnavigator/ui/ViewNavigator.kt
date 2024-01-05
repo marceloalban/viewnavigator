@@ -83,7 +83,7 @@ class ViewNavigator @JvmOverloads constructor(
             binding.iconExpandCollapse.setImageDrawable(
                 ContextCompat.getDrawable(
                     context,
-                    if (binding.recyclerView.isVisible) R.drawable.ic_up else R.drawable.ic_down
+                    if (binding.recyclerView.isVisible) R.drawable.view_navigator_ic_up else R.drawable.view_navigator_ic_down
                 )
             )
         }
